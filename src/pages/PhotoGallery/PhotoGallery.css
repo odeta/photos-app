@@ -1,0 +1,41 @@
+.PhotoGallery {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+}
+
+.PhotoGallery-photoSkeleton {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(227, 227, 227);
+}
+
+.PhotoGallery-photoWrapper {
+  margin: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+}
+
+.PhotoGallery-photo {
+  height: 100%;
+  width: 200px;
+  object-fit: cover;
+}
+
+.PhotoGallery-loading {
+  height: 50px;
+  width: 30%;
+  background-color: #c2d5f2dc;
+  position: fixed;
+  bottom: 16px;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
