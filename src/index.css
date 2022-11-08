@@ -1,5 +1,11 @@
+html,
+body,
+#root {
+  box-sizing: border-box;
+  height: 1vw;
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +16,40 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+  background-color: #4da1e4;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.Link:hover {
+  background-color: #4689bf;
+  transition: background-color 0.3s;
+}
+
+h5 {
+  font-weight: normal;
+}
+
+.-mb4 {
+  margin-bottom: 4px;
+}
+
+.-mb16 {
+  margin-bottom: 16px;
+}
+
+.-mb64 {
+  margin-bottom: 64px;
 }

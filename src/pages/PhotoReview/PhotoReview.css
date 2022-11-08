@@ -1,0 +1,34 @@
+.PhotoReview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.PhotoReview-photo {
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.PhotoReview-info {
+  flex: 1;
+}
+
+.PhotoReview-title {
+  max-width: 500px;
+}
+
+.PhotoReview-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  max-width: 400px;
+}
+
+.PhotoReview-tag {
+  height: 18px;
+  background-color: rgb(215 231 255);
+  color: black;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 2px;
+}
