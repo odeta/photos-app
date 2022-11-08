@@ -1,3 +1,4 @@
+import { Link, Outlet, useLocation } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -6,6 +7,10 @@ function App() {
       <header className="App-header">
 
       </header>
+
+      <main className="App-main">
+        <Outlet />
+      </main>
     </div>
   );
 }
