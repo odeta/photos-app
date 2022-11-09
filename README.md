@@ -1,6 +1,6 @@
 # Photos app
 
-1. Add a .env.local file to the main directory with your Flickr api key under the name REACT_APP_API_KEY ("REACT_APP_API_KEY='jrhfsu434t...')
+1. Add a .env.local file to the main directory with your Flickr api key under the name REACT_APP_API_KEY (`REACT_APP_API_KEY='jrhfsu434t...'`)
 2. Run `npm start`
 
 ## Available Scripts
